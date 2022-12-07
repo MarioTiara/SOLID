@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\OCPLibrary\classlib.csproj" />
+    <ProjectReference Include="..\OCPLibrary\OCPLibrary.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
