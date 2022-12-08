@@ -9,5 +9,6 @@ namespace OCPLibrary
     {
         public string  FirstName { get; set; }
         public string LastName { get; set; }
+        public EmployeType TypeOfEmployee { get; set; }=EmployeType.Staff;
     }
 }
