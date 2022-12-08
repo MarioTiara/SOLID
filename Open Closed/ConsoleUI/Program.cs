@@ -6,8 +6,8 @@ internal class Program
     {
         List<PersonModel> applicants= new List<PersonModel>{
             new PersonModel{FirstName="Tim", LastName="Corey"},
-            new PersonModel{FirstName="Sue",LastName="Storm" , TypeOfEmployee=EmployeType.Manager},
-            new PersonModel {FirstName="nancy", LastName="Roman", TypeOfEmployee=EmployeType.Executive}
+            new PersonModel{FirstName="Sue",LastName="Storm" },
+            new PersonModel {FirstName="nancy", LastName="Roman"}
         };
 
         List<EmployeModel> employes = new List<EmployeModel>();
