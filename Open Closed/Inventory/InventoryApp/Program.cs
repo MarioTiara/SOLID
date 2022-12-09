@@ -1,7 +1,13 @@
-﻿internal class Program
-{
-    private static void Main(string[] args)
+﻿namespace InventoryApp{
+    internal class Program
     {
-        Console.WriteLine("Hello, World!");
-    }
+        private static void Main(string[] args)
+        {
+            var inventory = new Inventory();
+
+            inventory.store(new Clothe());
+            inventory.store(new Shoe());
+            inventory.store(new Hat());
+        }
+    }   
 }
