@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace InventoryApp
 {
-    public class Clothe
+    public class Clothe:Good
     {
         private readonly double price=30.24;
         public double getPrice(){

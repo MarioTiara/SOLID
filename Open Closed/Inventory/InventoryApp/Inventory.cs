@@ -7,20 +7,14 @@ namespace InventoryApp
 {
     public class Inventory
     {
-        private List<Clothe> clothes= new();
-        private List<Hat> hats = new();
-        private List<Shoe> shoes= new();
+        private List<Good> goods= new();
 
-        public void store(Clothe clothe){
-            clothes.Add(clothe);
+        public void store(Good good){
+            goods.Add(good);
         }
 
-        public void store(Hat hat){
-            hats.Add(hat);
-        }
-
-        public void store(Shoe shoe){
-            shoes.Add(shoe);
+        public List<Good> GetGoods(){
+            return goods;
         }
     }
 }
