@@ -5,20 +5,15 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-    public class Employee
+
+
+    public class Employee : BaseEmployee, IManaged
     {
-        public string FirstName { get; set; }   
-        public string LastName { get; set; }    
-        public Employee Manager { get; set; }
-        public decimal Salary { get; set; } 
+        public IEmployee Manager { get; set; } =null;
 
-        public virtual void AssignManager(Employee manager) {
-            Manager= manager;
-        }
-
-        public virtual void CalculatePerHourRate(int rank){
-            decimal baseAmount=12.50M;
-            Salary= baseAmount+(rank*2);
+        public void AssignManager(IEmployee manager)
+        {
+            Manager=manager;
         }
     }
 }
