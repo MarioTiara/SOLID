@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-    public class Manager:Employee
+    public class Manager:Employee,IManager
     {
         public override void CalculatePerHourRate(int rank)
         {
@@ -13,8 +13,9 @@ namespace DemoLibrary
             Salary=baseAmount+(rank*4);
         }
 
-        public void GeneratePerformanceRview(){
-            Console.WriteLine("I'm reviewing a direct report's performance.");
+        public void GeneratePerformanceReview()
+        {
+            throw new NotImplementedException();
         }
     }
 }
