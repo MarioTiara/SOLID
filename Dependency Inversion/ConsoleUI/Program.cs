@@ -6,17 +6,17 @@ namespace ConsoleUI
     {
         private static void Main(string[] args)
         {
-            Person owner = new Person{
-              FirstName= "Tim",
-              LastName="Corey",
-              EmailAddress="mario@gmail.com",
-              PhoneNumber="628-2312"  
-            };
+            IPerson owner = Factory.CreatePerson();
+            owner.FirstName= "Tim";
+            owner.LastName="Corey";
+            owner.EmailAddress="mario@gmail.com";
+            owner.PhoneNumber="628-2312";
+        
 
-            Chor chor = new Chor{
-                ChoreName="Take out the trash",
-                Owner= owner
-            };
+            IChor chor = Factory.CreateChor();
+            chor.ChoreName="Take out the trash";
+            chor.Owner= owner;
+            
 
             chor.Performance(3);
             chor.Performance(1.5);
