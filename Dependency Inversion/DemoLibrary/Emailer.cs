@@ -5,9 +5,10 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-    public class Emailer
+    public class Emailer : IMessageSender
     {
-        public void SendEmail (Person person, string message){
+        public void SendEmail(IPerson person, string message)
+        {
             Console.WriteLine($"Simulating sending an email to {person.EmailAddress}");
         }
     }
