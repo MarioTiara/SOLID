@@ -14,6 +14,8 @@ namespace DemoLibrary
         public string LibraryId { get ; set ; }
         public int Pages { get ; set ; }=-1;
         public string Title { get ; set ; }
+        public List<string> Actors { get; set; }
+        public int RuntimeInMinutes { get; set; }
 
         public void CheckIn()
         {
