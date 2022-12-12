@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DemoLibrary.AudioBook">
+    <Position X="0.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAEABEAAgAIAAAAgAAAAAGAAAAAAAAAABAA=</HashCode>
+      <FileName>AudioBook.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DemoLibrary.Book">
+    <Position X="3.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAEABEAggAIAAAAgAAAAAGAAAAAAAAAAAAA=</HashCode>
+      <FileName>Book.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DemoLibrary.DVD">
+    <Position X="6" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAEAhEAAAAIAAAAgAAAAAGAAAAAAAAAABAA=</HashCode>
+      <FileName>DVD.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="DemoLibrary.IAudioBook">
+    <Position X="10.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>IAudioBook.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DemoLibrary.IBook">
+    <Position X="10.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAggAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IBook.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DemoLibrary.IDVD">
+    <Position X="10.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>IDVD.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DemoLibrary.ILibraryItem">
+    <Position X="8.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>ILibraryItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DemoLibrary.IBorrowable">
+    <Position X="0.5" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAEABAAAAAIAAAAgAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>IBorrowable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DemoLibrary.IBorrowableAudioBook">
+    <Position X="3" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IBorrowableAudioBook.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DemoLibrary.IBorrowableBook">
+    <Position X="5.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IBorrowableBook.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DemoLibrary.IBorrowobleDVD">
+    <Position X="7.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IBorrowobleDVD.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

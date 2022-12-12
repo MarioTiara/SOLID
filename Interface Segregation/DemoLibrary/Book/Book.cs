@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-    public class Book : ILibraryItem
+    public class Book : IBorrowableBook
     {
         public string Author { get; set; }
         public DateTime BorrowDate { get ; set ; }
