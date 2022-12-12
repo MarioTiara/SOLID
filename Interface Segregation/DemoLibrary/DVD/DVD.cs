@@ -9,7 +9,7 @@ namespace DemoLibrary
     {
         public DateTime BorrowDate { get ; set ; }
         public string Borrower { get ; set; }
-        public int CheckoutDurationInDays { get ; set; }=14;
+        public int CheckOutDurationInDays { get ; set; }=14;
         public string LibraryId { get ; set ; }
         public string Title { get ; set ; }
         public List<string> Actors { get; set; }
@@ -27,7 +27,7 @@ namespace DemoLibrary
 
         public DateTime GetDueDate()
         {
-            return BorrowDate.AddDays(CheckoutDurationInDays);
+            return BorrowDate.AddDays(CheckOutDurationInDays);
         }
     }
 }
